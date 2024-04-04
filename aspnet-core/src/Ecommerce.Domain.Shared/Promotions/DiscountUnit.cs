@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Ecommerce.Promotions
 {
-    internal class DiscountUnit
+    public enum DiscountUnit
     {
+        MoneyAmount,
+        Percentage
     }
 }

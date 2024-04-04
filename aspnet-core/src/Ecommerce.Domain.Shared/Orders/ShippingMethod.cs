@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Ecommerce.Orders
 {
-    internal class ShippingMethod
+    public enum ShippingMethod
     {
+        TakeOnShop,
+        GHN,
+        GHTK,
+        VT
     }
 }

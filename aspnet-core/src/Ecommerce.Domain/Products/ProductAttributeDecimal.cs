@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Volo.Abp.Domain.Entities;
 
 namespace Ecommerce.Products
 {
-    internal class ProductAttributeDecimal
+    public class ProductAttributeDecimal : Entity<Guid>
     {
+        public Guid AttributeId { get; set; }
+        public Guid ProductId { get; set; }
+        public decimal Value { get; set; }
     }
 }

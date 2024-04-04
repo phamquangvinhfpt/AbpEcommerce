@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Ecommerce.InventoryTickets
 {
-    internal class TicketType
+    public enum TicketType
     {
+        Import,
+        Export
     }
 }

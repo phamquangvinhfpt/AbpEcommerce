@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Ecommerce.Orders
 {
-    internal class PaymentMethod
+    public enum PaymentMethod
     {
+        COD,
+        OnlinePayment,
+        TransferByBank,
+        CreditCard
     }
 }

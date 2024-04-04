@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Ecommerce.Products
 {
-    internal class Product
+    public enum ProductType
     {
+        Single,
+        Grouped,
+        Configurable,
+        Bundle,
+        Virtual,
+        Downloadable,
     }
 }

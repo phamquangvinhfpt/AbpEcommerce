@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Ecommerce.Orders
 {
-    internal class TransactionType
+    public enum TransactionType
     {
+        ConfirmOrder,
+        StartProcessing,
+        FinishOrder,
+        CancelOrder
     }
 }

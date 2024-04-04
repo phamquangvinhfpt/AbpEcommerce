@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Ecommerce.Orders
 {
-    internal class OrderStatus
+    public enum OrderStatus
     {
+        New,
+        Confirmed,
+        Processing,
+        Shipping,
+        Finished,
+        Canceled
     }
 }
